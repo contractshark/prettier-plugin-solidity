@@ -72,7 +72,8 @@
     "jest-snapshot-serializer-ansi": "^1.0.0",
     "jest-snapshot-serializer-raw": "^1.1.0",
     "jest-watch-typeahead": "^0.6.1",
-    "outdent": "^0.8.0"
+    "outdent": "^0.8.0",
+    "solc": "^0.8.3"
   },
   "dependencies": {
     "@solidity-parser/parser": "^0.12.0",
