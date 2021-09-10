@@ -1,5 +1,5 @@
 {
-  "name": "prettier-plugin-solidity",
+  "name": "solidity-prettier-plugin-fuzz",
   "version": "1.0.0-beta.18",
   "description": "A Prettier Plugin for automatically formatting your Solidity code.",
   "main": "src",
@@ -76,12 +76,16 @@
     "lines-and-columns": "^1.1.6",
     "outdent": "^0.8.0",
     "prettier": "^2.3.2",
-    "solc": "^0.8.7-fixed"
+    "random-int": "^2.0.1",
+    "random-item": "^3.1.0",
+    "solc": "^0.8.7-fixed",
+    "unexpected": "^12.0.3"
   },
   "dependencies": {
     "@solidity-parser/parser": "^0.13.2",
     "emoji-regex": "^9.2.2",
     "escape-string-regexp": "^4.0.0",
+    "prettier-plugin-solidity": "^1.0.0-beta.18",
     "semver": "^7.3.5",
     "solidity-comments-extractor": "^0.0.7",
     "string-width": "^4.2.2"
