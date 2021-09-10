@@ -1,0 +1,10 @@
+$ eslump fuzz.js output/
+Attempt 269: The test function returned an error:
+SyntaxError: Unexpected token, expected "," (58:5)
+  56 | 			'use strict';
+  57 | 			'use strict';
+> 58 | 		} <= [`Ôñ9`, 2e308 ? 2e308 : t, ,]).yfbbhsxhabb;
+     |     ^
+  59 | async function async() {
+  60 | 	'Â?á';
+  61 | 	'use strict';

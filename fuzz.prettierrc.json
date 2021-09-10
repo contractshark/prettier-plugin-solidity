@@ -1,0 +1,29 @@
+{
+  "overrides": [
+    {
+      "files": "*.sol",
+      "options": {
+        "printWidth": 80,
+        "tabWidth": 4,
+        "useTabs": false,
+        "singleQuote": false,
+        "bracketSpacing": false,
+        "explicitTypes": "always"
+      }
+    },
+    {
+        "files": "contracts/v1/**/*.sol",
+        "options": {
+          "compiler": "0.6.3",
+          "explicitTypes": "preserve"
+        }
+      },
+      {
+        "files": "contracts/v2/**/*.sol",
+        "options": {
+          "compiler": "0.8.4",
+          "explicitTypes": "never"
+        }
+      }
+  ]
+}
