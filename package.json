@@ -85,6 +85,7 @@
     "@solidity-parser/parser": "^0.13.2",
     "emoji-regex": "^9.2.2",
     "escape-string-regexp": "^4.0.0",
+    "eslump": "^3.0.0",
     "prettier-plugin-solidity": "^1.0.0-beta.18",
     "semver": "^7.3.5",
     "solidity-comments-extractor": "^0.0.7",
